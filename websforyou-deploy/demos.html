@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trade Website Examples | See Demo Sites Before You Commit | Websforyou</title>
+<meta name="description" content="See exactly what your trade website could look like. Live demo sites for landscapers, plumbers, painters, car detailers and more — built by Websforyou. From £50/month, no upfront cost.">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Websforyou">
+<link rel="canonical" href="https://www.websforyou.co.uk/demos">
+
+<!-- OPEN GRAPH -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.websforyou.co.uk/demos">
+<meta property="og:title" content="Trade Website Examples | See Demo Sites Before You Commit | Websforyou">
+<meta property="og:description" content="Live demo websites for tradespeople — landscapers, plumbers, painters, car detailers and more. See exactly what your site could look like before you pay a thing.">
+<meta property="og:image" content="https://static.wixstatic.com/media/a39490_94a38cdad518428096481d6075e4f451~mv2.png">
+<meta property="og:site_name" content="Websforyou">
+<meta property="og:locale" content="en_GB">
+
+<!-- TWITTER CARD -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Trade Website Examples | Websforyou">
+<meta name="twitter:description" content="Live demo websites for tradespeople — see exactly what your site could look like before you pay a thing.">
+<meta name="twitter:image" content="https://static.wixstatic.com/media/a39490_94a38cdad518428096481d6075e4f451~mv2.png">
+
+<!-- FAVICON -->
+<link rel="icon" type="image/png" href="https://static.wixstatic.com/media/a39490_0e6bc4ba39e94118aa408aef273bb2cd~mv2.png">
+<link rel="apple-touch-icon" href="https://static.wixstatic.com/media/a39490_94a38cdad518428096481d6075e4f451~mv2.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet"></noscript>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',sans-serif;color:#1a3560;background:#fff;overflow-x:hidden;font-size:16px;line-height:1.6}
+
+/* ── REVEAL ── */
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .65s ease,transform .65s ease}
+.reveal.visible{opacity:1;transform:none}
+.reveal-delay-1{transition-delay:.1s}.reveal-delay-2{transition-delay:.2s}
+.reveal-delay-3{transition-delay:.3s}.reveal-delay-4{transition-delay:.4s}
+.reveal-delay-5{transition-delay:.5s}.reveal-delay-6{transition-delay:.6s}
+
+/* ── STICKY WHATSAPP ── */
+.sticky-wa{
+  position:fixed;bottom:24px;right:24px;z-index:999;
+  background:#25d366;color:#fff;
+  display:flex;align-items:center;gap:10px;
+  padding:13px 20px;border-radius:50px;
+  font-weight:700;font-size:14px;
+  text-decoration:none;
+  box-shadow:0 4px 20px rgba(37,211,102,0.4);
+  transition:transform .2s cubic-bezier(.34,1.56,.64,1),box-shadow .2s;
+}
+.sticky-wa:hover{transform:scale(1.06);box-shadow:0 6px 28px rgba(37,211,102,.55)}
+.sticky-wa svg{width:22px;height:22px;flex-shrink:0}
+
+/* ── HEADER ── */
+.site-header{
+  background:#fff;border-bottom:1px solid #e2e8f0;
+  padding:0 32px;height:64px;
+  display:flex;align-items:center;justify-content:space-between;
+  position:sticky;top:0;z-index:100;
+}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none}
+.logo-mark{
+  width:32px;height:32px;border-radius:8px;
+  background:linear-gradient(135deg,#1a3560,#2d5890);
+  display:flex;align-items:center;justify-content:center;
+  font-size:13px;font-weight:900;color:#fff;letter-spacing:-0.5px;
+}
+.logo-text{font-size:17px;font-weight:800;color:#1a3560;letter-spacing:-0.3px}
+.logo-text span{color:#f07356}
+.header-right{display:flex;align-items:center;gap:20px}
+.header-link{font-size:14px;font-weight:600;color:#64748b;text-decoration:none;transition:color .2s}
+.header-link:hover{color:#1a3560}
+.btn-header-wa{
+  display:flex;align-items:center;gap:8px;
+  background:#25d366;color:#fff;
+  padding:9px 20px;border-radius:8px;
+  font-size:14px;font-weight:700;text-decoration:none;
+  box-shadow:0 4px 14px rgba(37,211,102,.3);
+  transition:transform .2s,box-shadow .2s;
+}
+.btn-header-wa:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(37,211,102,.45)}
+.btn-header-wa svg{width:18px;height:18px}
+@media(max-width:640px){.header-link{display:none}.site-header{padding:0 20px}}
+
+/* ── HERO ── */
+.hero{
+  background:linear-gradient(135deg,#1a3560 0%,#142a52 50%,#1a3a6a 100%);
+  background-size:400% 400%;
+  animation:gradientShift 10s ease infinite;
+  color:#fff;padding:72px 24px 64px;text-align:center;
+  position:relative;overflow:hidden;
+}
+.hero::before{
+  content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 70% 20%,rgba(240,115,86,.12) 0%,transparent 60%),
+             radial-gradient(ellipse at 20% 80%,rgba(37,211,102,.08) 0%,transparent 50%);
+  pointer-events:none;
+}
+@keyframes gradientShift{
+  0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}
+}
+.hero-eyebrow{
+  display:block;width:fit-content;margin:0 auto 24px;
+  background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);
+  color:#94a3b8;font-size:12px;font-weight:600;letter-spacing:2px;text-transform:uppercase;
+  padding:6px 14px;border-radius:50px;position:relative;
+}
+.hero h1{
+  font-size:clamp(28px,6vw,52px);font-weight:900;line-height:1.1;
+  letter-spacing:-1.5px;margin-bottom:16px;max-width:640px;
+  margin-left:auto;margin-right:auto;position:relative;
+}
+.hero h1 span{color:#f07356}
+.hero-sub{
+  font-size:clamp(15px,2.5vw,18px);color:#94a3b8;max-width:500px;
+  margin:0 auto 36px;line-height:1.65;position:relative;
+}
+.hero-cta-row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;position:relative}
+.btn-primary{
+  display:inline-flex;align-items:center;gap:8px;
+  background:#f07356;color:#fff;
+  padding:14px 32px;border-radius:10px;
+  font-size:16px;font-weight:700;text-decoration:none;
+  box-shadow:0 4px 20px rgba(240,115,86,.4);
+  transition:transform .2s,box-shadow .2s;
+}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 8px 32px rgba(240,115,86,.55)}
+.btn-ghost{
+  display:inline-flex;align-items:center;gap:8px;
+  background:transparent;color:rgba(255,255,255,.7);
+  padding:14px 32px;border-radius:10px;
+  font-size:16px;font-weight:600;text-decoration:none;
+  border:1.5px solid rgba(255,255,255,.2);
+  transition:border-color .2s,color .2s,transform .2s;
+}
+.btn-ghost:hover{border-color:rgba(255,255,255,.5);color:#fff;transform:translateY(-2px)}
+.hero-trust{
+  display:flex;align-items:center;justify-content:center;gap:6px;
+  flex-wrap:wrap;margin-top:32px;padding-top:28px;
+  border-top:1px solid rgba(255,255,255,.08);
+  color:#94a3b8;font-size:13px;font-weight:500;position:relative;
+}
+.trust-dot{width:4px;height:4px;border-radius:50%;background:#334155}
+
+/* ── FILTER BAR ── */
+.filter-bar{background:#f8fafc;border-bottom:1px solid #e2e8f0;padding:20px 24px;text-align:center}
+.filter-inner{display:inline-flex;gap:6px;flex-wrap:wrap;justify-content:center}
+.filter-btn{
+  background:#fff;border:1px solid #e2e8f0;color:#64748b;
+  font-size:13px;font-weight:600;padding:8px 18px;border-radius:50px;
+  cursor:pointer;transition:background .2s,color .2s,border-color .2s;font-family:inherit;
+}
+.filter-btn:hover{border-color:#c7d8f0;color:#1a3560;background:#f0f6ff}
+.filter-btn.active{background:#1a3560;color:#fff;border-color:#1a3560}
+
+/* ── DEMOS SECTION ── */
+.demos-section{padding:64px 24px 80px;background:#fff}
+.wrap{max-width:1160px;margin:0 auto}
+.section-label{font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#b84a25;margin-bottom:12px;text-align:center}
+.section-title{font-size:clamp(22px,4.5vw,40px);font-weight:800;letter-spacing:-.5px;margin-bottom:10px;text-align:center}
+.section-sub{font-size:16px;color:#64748b;max-width:520px;margin:0 auto 48px;line-height:1.65;text-align:center}
+
+.demos-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;max-width:1160px;margin:0 auto}
+@media(max-width:960px){.demos-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:580px){.demos-grid{grid-template-columns:1fr}}
+
+/* ── DEMO CARD ── */
+.demo-card{
+  background:#fff;border:1px solid #e2e8f0;border-radius:16px;overflow:hidden;
+  transition:transform .3s cubic-bezier(.34,1.56,.64,1),box-shadow .3s,border-color .3s;
+  display:flex;flex-direction:column;
+}
+.demo-card:hover{transform:translateY(-6px);border-color:#c7d8f0;box-shadow:0 16px 48px rgba(26,53,96,.12)}
+
+/* Card preview */
+.card-preview{height:200px;position:relative;overflow:hidden;flex-shrink:0;display:flex;align-items:center;justify-content:center}
+.card-mock{position:absolute;inset:0;display:flex;flex-direction:column;padding:20px;gap:8px}
+.mock-bar{height:8px;border-radius:2px;background:rgba(255,255,255,.15);width:100%}
+.mock-hero{flex:1;border-radius:8px;max-height:72px}
+.mock-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
+.mock-card{height:32px;border-radius:5px}
+.card-industry{
+  position:absolute;top:12px;left:12px;
+  font-size:10px;font-weight:800;letter-spacing:2px;text-transform:uppercase;
+  padding:5px 12px;border-radius:50px;z-index:2;
+}
+.card-live-badge{
+  position:absolute;top:12px;right:12px;
+  background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);
+  color:#fff;font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;
+  padding:4px 10px;border-radius:50px;backdrop-filter:blur(8px);
+}
+
+/* Preview colours per trade */
+.prev-landscaper{background:linear-gradient(140deg,#0a1f0f,#1b3d2b)}
+.prev-landscaper .mock-hero{background:linear-gradient(135deg,rgba(74,186,110,.35),rgba(27,61,43,.5))}
+.prev-landscaper .mock-card{background:rgba(74,186,110,.12)}
+.ind-landscaper{background:rgba(74,186,110,.18);border:1px solid rgba(74,186,110,.35);color:#2d8a4e}
+
+.prev-plumber{background:linear-gradient(140deg,#030d1c,#0d2240)}
+.prev-plumber .mock-hero{background:linear-gradient(135deg,rgba(29,126,216,.3),rgba(13,34,64,.5))}
+.prev-plumber .mock-card{background:rgba(29,126,216,.15);border-left:2px solid rgba(29,126,216,.4)}
+.ind-plumber{background:rgba(29,126,216,.12);border:1px solid rgba(29,126,216,.3);color:#1563a8}
+
+.prev-painter{background:linear-gradient(140deg,#120d10,#1c1420)}
+.prev-painter .mock-hero{background:linear-gradient(135deg,rgba(196,95,60,.3),rgba(28,20,32,.5))}
+.prev-painter .mock-card:nth-child(1){background:linear-gradient(180deg,rgba(245,230,216,.2),rgba(232,196,160,.15))}
+.prev-painter .mock-card:nth-child(2){background:linear-gradient(180deg,rgba(212,232,212,.2),rgba(168,200,168,.15))}
+.prev-painter .mock-card:nth-child(3){background:linear-gradient(180deg,rgba(212,216,232,.2),rgba(168,174,200,.15))}
+.ind-painter{background:rgba(196,95,60,.12);border:1px solid rgba(196,95,60,.3);color:#a04020}
+
+.prev-detailer{background:linear-gradient(140deg,#020408,#080c18)}
+.prev-detailer .mock-hero{background:linear-gradient(135deg,rgba(59,130,246,.25),rgba(8,12,24,.5))}
+.prev-detailer .mock-card{background:rgba(59,130,246,.12);border:1px solid rgba(59,130,246,.25)}
+.ind-detailer{background:rgba(59,130,246,.12);border:1px solid rgba(59,130,246,.28);color:#1d52a8}
+
+.prev-electrician{background:linear-gradient(140deg,#0f0f05,#1a1a08)}
+.prev-electrician .mock-hero{background:linear-gradient(135deg,rgba(234,179,8,.2),rgba(26,26,8,.4))}
+.prev-electrician .mock-card{background:rgba(234,179,8,.1)}
+.ind-electrician{background:rgba(234,179,8,.1);border:1px solid rgba(234,179,8,.25);color:#8a6400}
+
+.prev-builder{background:linear-gradient(140deg,#120b05,#1f1008)}
+.prev-builder .mock-hero{background:linear-gradient(135deg,rgba(234,88,12,.2),rgba(31,16,8,.4))}
+.prev-builder .mock-card{background:rgba(234,88,12,.1)}
+.ind-builder{background:rgba(234,88,12,.1);border:1px solid rgba(234,88,12,.22);color:#8a3200}
+
+/* Card body */
+.card-body{padding:22px 24px 24px;display:flex;flex-direction:column;flex:1}
+.card-trade{font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#64748b;margin-bottom:7px}
+.card-title{font-size:18px;font-weight:800;color:#1a3560;letter-spacing:-.3px;margin-bottom:8px}
+.card-desc{font-size:13.5px;color:#64748b;line-height:1.7;flex:1;margin-bottom:20px}
+.card-footer{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.card-chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{
+  font-size:10px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;
+  padding:4px 10px;border-radius:50px;background:#f8fafc;border:1px solid #e2e8f0;color:#64748b;
+}
+.btn-view-demo{
+  display:inline-flex;align-items:center;gap:5px;
+  background:#1a3560;color:#fff;
+  padding:9px 18px;border-radius:8px;
+  font-size:13px;font-weight:700;text-decoration:none;white-space:nowrap;
+  transition:background .2s,transform .2s,box-shadow .2s;
+  box-shadow:0 2px 10px rgba(26,53,96,.2);
+}
+.btn-view-demo:hover{background:#2d5890;transform:translateY(-2px);box-shadow:0 6px 20px rgba(26,53,96,.3)}
+.btn-coming-soon{
+  display:inline-flex;align-items:center;
+  background:#f8fafc;color:#94a3b8;
+  padding:9px 18px;border-radius:8px;
+  font-size:13px;font-weight:700;border:1px solid #e2e8f0;
+  pointer-events:none;white-space:nowrap;
+}
+
+/* Coming soon card style */
+.demo-card.coming{border-style:dashed;background:#fafcff}
+.demo-card.coming:hover{transform:none;box-shadow:none;border-color:#c7d8f0}
+.coming-preview{
+  height:200px;display:flex;align-items:center;justify-content:center;
+  flex-direction:column;gap:10px;
+}
+.coming-icon{font-size:36px;opacity:.35}
+.coming-label{font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#94a3b8}
+
+/* ── TRADES STRIP ── */
+.trades-section{background:#f8fafc;border-top:1px solid #e2e8f0;border-bottom:1px solid #e2e8f0;padding:56px 24px}
+.trades-grid{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;max-width:900px;margin:0 auto}
+.trade-tag{
+  display:inline-flex;align-items:center;gap:7px;
+  background:#fff;border:1px solid #e2e8f0;border-radius:50px;
+  padding:9px 18px;font-size:13px;font-weight:600;color:#1a3560;
+  transition:border-color .2s,box-shadow .2s;
+}
+.trade-tag:hover{border-color:#c7d8f0;box-shadow:0 4px 12px rgba(26,53,96,.08)}
+
+/* ── CTA ── */
+.cta-section{
+  background:linear-gradient(135deg,#1a3560 0%,#142a52 50%,#1a3a6a 100%);
+  background-size:400% 400%;animation:gradientShift 10s ease infinite;
+  padding:80px 24px;text-align:center;color:#fff;position:relative;overflow:hidden;
+}
+.cta-section::before{
+  content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 70% 20%,rgba(240,115,86,.12) 0%,transparent 60%);
+  pointer-events:none;
+}
+.cta-inner{position:relative;z-index:2;max-width:580px;margin:0 auto}
+.cta-section h2{font-size:clamp(24px,5vw,44px);font-weight:900;letter-spacing:-1px;margin-bottom:12px;line-height:1.1}
+.cta-section h2 span{color:#f07356}
+.cta-section p{font-size:17px;color:#94a3b8;margin-bottom:36px;line-height:1.65;max-width:460px;margin-left:auto;margin-right:auto}
+.cta-btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.btn-wa{
+  display:flex;align-items:center;gap:8px;
+  background:#25d366;color:#fff;
+  padding:15px 28px;border-radius:10px;
+  font-weight:700;font-size:16px;text-decoration:none;
+  box-shadow:0 4px 18px rgba(37,211,102,.35);
+  transition:transform .2s,box-shadow .2s;
+}
+.btn-wa:hover{transform:translateY(-2px);box-shadow:0 8px 28px rgba(37,211,102,.5)}
+.btn-wa svg{width:20px;height:20px;flex-shrink:0}
+.btn-cta-ghost{
+  display:inline-flex;align-items:center;
+  background:transparent;color:rgba(255,255,255,.7);
+  padding:15px 28px;border-radius:10px;
+  font-size:16px;font-weight:600;text-decoration:none;
+  border:1.5px solid rgba(255,255,255,.2);
+  transition:border-color .2s,color .2s,transform .2s;
+}
+.btn-cta-ghost:hover{border-color:rgba(255,255,255,.5);color:#fff;transform:translateY(-2px)}
+.cta-trust{
+  display:flex;align-items:center;justify-content:center;gap:6px;
+  flex-wrap:wrap;margin-top:28px;
+  color:#94a3b8;font-size:13px;font-weight:500;
+}
+
+/* ── FOOTER ── */
+footer{background:#f8fafc;border-top:1px solid #e2e8f0;padding:32px 24px;text-align:center}
+.footer-inner{max-width:1160px;margin:0 auto;display:flex;flex-direction:column;align-items:center;gap:14px}
+.footer-logo{display:flex;align-items:center;gap:8px;text-decoration:none}
+.footer-logo-mark{width:26px;height:26px;border-radius:7px;background:linear-gradient(135deg,#1a3560,#2d5890)}
+.footer-logo-text{font-size:15px;font-weight:800;color:#1a3560}
+.footer-logo-text span{color:#f07356}
+.footer-links{display:flex;gap:24px}
+.footer-links a{font-size:13px;color:#64748b;text-decoration:none;transition:color .2s}
+.footer-links a:hover{color:#1a3560}
+footer p{font-size:12px;color:#94a3b8}
+</style>
+</head>
+<body>
+
+<!-- STICKY WHATSAPP -->
+<a href="https://wa.me/447776691941?text=Hi%20Harry%2C%20I%27m%20interested%20in%20a%20website%20for%20my%20business.%20Can%20we%20have%20a%20chat%3F" target="_blank" rel="noopener" class="sticky-wa" aria-label="WhatsApp Harry">
+  <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.534 5.858L.058 23.486a.5.5 0 0 0 .609.61l5.79-1.516A11.95 11.95 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.9a9.9 9.9 0 0 1-5.031-1.371l-.361-.214-3.737.979.999-3.645-.235-.374A9.862 9.862 0 0 1 2.1 12C2.1 6.534 6.534 2.1 12 2.1c5.465 0 9.9 4.434 9.9 9.9 0 5.465-4.435 9.9-9.9 9.9z"/></svg>
+  WhatsApp Harry
+</a>
+
+<!-- HEADER -->
+<header class="site-header">
+  <a href="https://websforyou.co.uk" class="logo" aria-label="Websforyou — back to homepage">
+    <img src="https://static.wixstatic.com/media/a39490_94a38cdad518428096481d6075e4f451~mv2.png" alt="Websforyou logo" style="height:36px;width:auto;display:block" loading="eager">
+  </a>
+  <div class="header-right">
+    <a href="https://websforyou.co.uk" class="header-link">← Back to main site</a>
+    <a href="https://wa.me/447776691941?text=Hi%20Harry%2C%20I%27m%20interested%20in%20a%20website%20for%20my%20business.%20Can%20we%20have%20a%20chat%3F" target="_blank" rel="noopener" class="btn-header-wa">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.534 5.858L.058 23.486a.5.5 0 0 0 .609.61l5.79-1.516A11.95 11.95 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.9a9.9 9.9 0 0 1-5.031-1.371l-.361-.214-3.737.979.999-3.645-.235-.374A9.862 9.862 0 0 1 2.1 12C2.1 6.534 6.534 2.1 12 2.1c5.465 0 9.9 4.434 9.9 9.9 0 5.465-4.435 9.9-9.9 9.9z"/></svg>
+      WhatsApp Harry
+    </a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <span class="hero-eyebrow">Our demo sites</span>
+  <h1>See what your <span>trade website</span> could look like</h1>
+  <p class="hero-sub">Every demo below is a full working website built for a specific trade. Click through to see exactly how your business could look online.</p>
+  <div class="hero-cta-row">
+    <a href="#demos" class="btn-primary">Browse demos ↓</a>
+    <a href="https://websforyou.co.uk" class="btn-ghost">Back to main site</a>
+  </div>
+  <div class="hero-trust">
+    <span>No upfront cost</span>
+    <span class="trust-dot" aria-hidden="true"></span>
+    <span>Just &#163;50/month</span>
+    <span class="trust-dot" aria-hidden="true"></span>
+    <span>Live in 7 days</span>
+    <span class="trust-dot" aria-hidden="true"></span>
+    <span>Free consultation</span>
+  </div>
+</section>
+
+<!-- FILTER BAR -->
+<div class="filter-bar">
+  <div class="filter-inner" role="group" aria-label="Filter by trade">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="landscaping">Landscaping</button>
+    <button class="filter-btn" data-filter="plumbing">Plumbing</button>
+    <button class="filter-btn" data-filter="painting">Painting</button>
+    <button class="filter-btn" data-filter="automotive">Automotive</button>
+    <button class="filter-btn" data-filter="coming">Coming Soon</button>
+  </div>
+</div>
+
+<!-- DEMOS GRID -->
+<section class="demos-section" id="demos">
+  <div class="wrap">
+    <p class="section-label reveal">4 live demos — more coming</p>
+    <h2 class="section-title reveal reveal-delay-1">Each site built for a <span style="color:#f07356">specific trade</span></h2>
+    <p class="section-sub reveal reveal-delay-2">Not templates. Every demo is designed from scratch with a distinct look, identity and features tailored to that trade.</p>
+
+    <div class="demos-grid">
+
+      <!-- LANDSCAPER -->
+      <div class="demo-card reveal" data-trade="landscaping">
+        <div class="card-preview prev-landscaper">
+          <span class="card-industry ind-landscaper">🌿 Landscaping</span>
+          <span class="card-live-badge">Live Demo</span>
+          <div class="card-mock">
+            <div class="mock-bar"></div>
+            <div class="mock-hero"></div>
+            <div class="mock-cards">
+              <div class="mock-card"></div>
+              <div class="mock-card"></div>
+              <div class="mock-card"></div>
+            </div>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="card-trade">Landscaping &amp; Gardening</div>
+          <div class="card-title">The Garden Studio</div>
+          <div class="card-desc">Natural, premium and organic. Wave dividers, a four-season services strip and a design that immediately feels like a high-end gardening brand.</div>
+          <div class="card-footer">
+            <div class="card-chips">
+              <span class="chip">Seasonal strip</span>
+              <span class="chip">Gallery</span>
+            </div>
+            <a href="https://demolandscaper.netlify.app/" target="_blank" rel="noopener" class="btn-view-demo">View demo →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- PLUMBER -->
+      <div class="demo-card reveal reveal-delay-1" data-trade="plumbing">
+        <div class="card-preview prev-plumber">
+          <span class="card-industry ind-plumber">🔧 Plumbing</span>
+          <span class="card-live-badge">Live Demo</span>
+          <div class="card-mock">
+            <div class="mock-bar" style="background:rgba(179,28,28,.5);height:6px;margin-bottom:4px"></div>
+            <div class="mock-bar"></div>
+            <div class="mock-hero"></div>
+            <div class="mock-cards">
+              <div class="mock-card"></div>
+              <div class="mock-card"></div>
+              <div class="mock-card"></div>
+            </div>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="card-trade">Plumbing &amp; Heating</div>
+          <div class="card-title">The Trusted Trade</div>
+          <div class="card-desc">Bold, urgent, trustworthy. A 24/7 emergency bar, trust badge strip and left-accent service cards designed to convert emergency call-outs.</div>
+          <div class="card-footer">
+            <div class="card-chips">
+              <span class="chip">Emergency bar</span>
+              <span class="chip">Trust badges</span>
+            </div>
+            <a href="https://demoplumbersitewebsforyou.netlify.app/" target="_blank" rel="noopener" class="btn-view-demo">View demo →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- PAINTER -->
+      <div class="demo-card reveal reveal-delay-2" data-trade="painting">
+        <div class="card-preview prev-painter">
+          <span class="card-industry ind-painter">🖌️ Painting</span>
+          <span class="card-live-badge">Live Demo</span>
+          <div class="card-mock">
+            <div class="mock-bar"></div>
+            <div class="mock-hero"></div>
+            <div class="mock-cards">
+              <div class="mock-card"></div>
+              <div class="mock-card"></div>
+              <div class="mock-card"></div>
+            </div>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="card-trade">Painting &amp; Decorating</div>
+          <div class="card-title">The Artisan</div>
+          <div class="card-desc">Warm, elegant and creative. Artisan-numbered services (01, 02, 03), a colour palette swatch strip and a refined look that commands premium prices.</div>
+          <div class="card-footer">
+            <div class="card-chips">
+              <span class="chip">Colour swatches</span>
+              <span class="chip">Artisan look</span>
+            </div>
+            <a href="https://demopainter.netlify.app/" target="_blank" rel="noopener" class="btn-view-demo">View demo →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- CAR DETAILER -->
+      <div class="demo-card reveal reveal-delay-3" data-trade="automotive">
+        <div class="card-preview prev-detailer">
+          <span class="card-industry ind-detailer">🚗 Automotive</span>
+          <span class="card-live-badge">Live Demo</span>
+          <div class="card-mock">
+            <div class="mock-bar"></div>
+            <div class="mock-hero"></div>
+            <div class="mock-cards">
+              <div class="mock-card"></div>
+              <div class="mock-card"></div>
+              <div class="mock-card"></div>
+            </div>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="card-trade">Car Detailing &amp; Valeting</div>
+          <div class="card-title">The Detail Studio</div>
+          <div class="card-desc">Ultra-premium and cinematic. Glassmorphism pricing packages, a dark studio aesthetic and electric-blue accents that make any detailer look world-class.</div>
+          <div class="card-footer">
+            <div class="card-chips">
+              <span class="chip">Glassmorphism</span>
+              <span class="chip">Packages</span>
+            </div>
+            <a href="https://democardetailer.netlify.app/" target="_blank" rel="noopener" class="btn-view-demo">View demo →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- COMING — ELECTRICIAN -->
+      <div class="demo-card coming reveal reveal-delay-4" data-trade="coming">
+        <div class="coming-preview prev-electrician">
+          <span class="card-industry ind-electrician">⚡ Electrical</span>
+          <div class="coming-icon">⚡</div>
+          <div class="coming-label">Coming soon</div>
+        </div>
+        <div class="card-body">
+          <div class="card-trade">Electrical &amp; Rewiring</div>
+          <div class="card-title">Electrician Demo</div>
+          <div class="card-desc">Dark, bold and professional. NICEIC trust badges, emergency callout section and a yellow-accent design built for electricians. In production now.</div>
+          <div class="card-footer">
+            <div class="card-chips">
+              <span class="chip">NICEIC badges</span>
+              <span class="chip">Dark design</span>
+            </div>
+            <span class="btn-coming-soon">Coming soon</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- COMING — BUILDER -->
+      <div class="demo-card coming reveal reveal-delay-5" data-trade="coming">
+        <div class="coming-preview prev-builder">
+          <span class="card-industry ind-builder">🏗️ Building</span>
+          <div class="coming-icon">🏗️</div>
+          <div class="coming-label">Coming soon</div>
+        </div>
+        <div class="card-body">
+          <div class="card-trade">Building &amp; Construction</div>
+          <div class="card-title">Builder Demo</div>
+          <div class="card-desc">Solid, dependable, impressive. A project showcase site for builders with before/after galleries and a quote request system. In production now.</div>
+          <div class="card-footer">
+            <div class="card-chips">
+              <span class="chip">Project gallery</span>
+              <span class="chip">Quote form</span>
+            </div>
+            <span class="btn-coming-soon">Coming soon</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- TRADES WE COVER -->
+<section class="trades-section">
+  <div class="wrap">
+    <p class="section-label reveal" style="margin-bottom:10px">Every trade</p>
+    <h2 class="section-title reveal reveal-delay-1" style="margin-bottom:8px">Don't see your trade?</h2>
+    <p class="section-sub reveal reveal-delay-2">We build for every trade and local service business. If you don't see yours above, get in touch — we'll build exactly what you need.</p>
+    <div class="trades-grid reveal reveal-delay-3">
+      <span class="trade-tag">🌿 Landscapers</span>
+      <span class="trade-tag">🔧 Plumbers</span>
+      <span class="trade-tag">🖌️ Painters</span>
+      <span class="trade-tag">🚗 Car Detailers</span>
+      <span class="trade-tag">⚡ Electricians</span>
+      <span class="trade-tag">🏗️ Builders</span>
+      <span class="trade-tag">🪟 Window Fitters</span>
+      <span class="trade-tag">🔥 Gas Engineers</span>
+      <span class="trade-tag">🌳 Tree Surgeons</span>
+      <span class="trade-tag">🧹 Cleaners</span>
+      <span class="trade-tag">🏠 Roofers</span>
+      <span class="trade-tag">🛁 Bathroom Fitters</span>
+      <span class="trade-tag">🪵 Carpenters</span>
+      <span class="trade-tag">❄️ HVAC Engineers</span>
+      <span class="trade-tag">+ Your Trade</span>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="cta-inner">
+    <h2>Ready to get <span>your site</span> built?</h2>
+    <p>WhatsApp Harry for a free chat. Tell him your trade, he'll show you what's possible and get you a site live in 7 days.</p>
+    <div class="cta-btns">
+      <a href="https://wa.me/447776691941?text=Hi%20Harry%2C%20I%27d%20like%20a%20website%20for%20my%20business.%20Can%20we%20have%20a%20chat%3F" target="_blank" rel="noopener" class="btn-wa">
+        <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.534 5.858L.058 23.486a.5.5 0 0 0 .609.61l5.79-1.516A11.95 11.95 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.9a9.9 9.9 0 0 1-5.031-1.371l-.361-.214-3.737.979.999-3.645-.235-.374A9.862 9.862 0 0 1 2.1 12C2.1 6.534 6.534 2.1 12 2.1c5.465 0 9.9 4.434 9.9 9.9 0 5.465-4.435 9.9-9.9 9.9z"/></svg>
+        WhatsApp Harry — it's free
+      </a>
+      <a href="https://websforyou.co.uk" class="btn-cta-ghost">Back to main site</a>
+    </div>
+    <div class="cta-trust">
+      <span>No payment upfront</span>
+      <span class="trust-dot" aria-hidden="true" style="background:#334155"></span>
+      <span>You own the site</span>
+      <span class="trust-dot" aria-hidden="true" style="background:#334155"></span>
+      <span>Live in 7 days</span>
+      <span class="trust-dot" aria-hidden="true" style="background:#334155"></span>
+      <span>SEO included free</span>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <a href="https://websforyou.co.uk" class="footer-logo" aria-label="Websforyou homepage">
+      <img src="https://static.wixstatic.com/media/a39490_94a38cdad518428096481d6075e4f451~mv2.png" alt="Websforyou logo" style="height:28px;width:auto;display:block">
+    </a>
+    <nav class="footer-links" aria-label="Footer navigation">
+      <a href="https://websforyou.co.uk">Home</a>
+      <a href="https://websforyou.co.uk/#about">About</a>
+      <a href="https://websforyou.co.uk/#contact">Contact</a>
+    </nav>
+    <p>© 2025 Websforyou. Professional websites for tradespeople across Essex &amp; the UK.</p>
+  </div>
+</footer>
+
+<script>
+// Scroll reveal
+const revealEls = document.querySelectorAll('.reveal');
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(e => { if(e.isIntersecting){ e.target.classList.add('visible'); observer.unobserve(e.target); }});
+}, {threshold: 0.1, rootMargin: '0px 0px -28px 0px'});
+revealEls.forEach(el => observer.observe(el));
+
+// Filter
+const filterBtns = document.querySelectorAll('.filter-btn');
+const cards = document.querySelectorAll('.demo-card');
+filterBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    filterBtns.forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const f = btn.dataset.filter;
+    cards.forEach(card => {
+      const match = f === 'all' || card.dataset.trade === f;
+      card.style.transition = 'opacity .3s, transform .3s';
+      if(match){
+        card.style.opacity='1'; card.style.pointerEvents=''; card.style.display='';
+      } else {
+        card.style.opacity='0'; card.style.pointerEvents='none';
+        setTimeout(()=>{ if(card.style.opacity==='0') card.style.display='none'; }, 310);
+      }
+    });
+    if(f !== 'all') cards.forEach(c => { if(c.dataset.trade===f) c.style.display=''; });
+    else cards.forEach(c => c.style.display='');
+  });
+});
+
+// Smooth anchor scroll
+document.querySelectorAll('a[href^="#"]').forEach(a => {
+  a.addEventListener('click', e => {
+    const t = document.querySelector(a.getAttribute('href'));
+    if(t){ e.preventDefault(); t.scrollIntoView({behavior:'smooth',block:'start'}); }
+  });
+});
+</script>
+</body>
+</html>
